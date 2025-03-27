@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+    background-color: black;
+}
+
+.post-container {
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 16px;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+}
+.username {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.profile-pic{
+    padding-left: 16px;
+    padding-right: 16px;
+
+    font-size: 1.5em;
+}
+.text{
+    margin-top: 10px;
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: normal;
+    white-space: pre-wrap;
+    max-width: 100%;
+}
+.content{
+    flex: 1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
+  
+}
+
+.like-button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.like {
+    height: 50px;
+    transform: scale(2);
+    color: red; 
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.like:hover {
+    transform: scale(2.1); /* Slightly enlarge the icon on hover */
+    transition: transform 0.2s ease; /* Add a smooth transition */
+}
+.like:active {
+    transform: scale(0.9);
+}
+
+.date{
+    font-weight: normal;
+    font-size: 0.8em;
+}
