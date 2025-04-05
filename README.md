@@ -14,6 +14,12 @@ This project is a full-featured blog platform that allows users to read, write, 
 - **Rich Text Editor**: Format your blog posts with a powerful editor
 - **Dark Mode Support**: Eye-friendly reading experience
 
+## 🔐 Demo Access
+For demonstration purposes, you can use these credentials to log in:
+
+- **Email**: ahmshohjahon@gmail.com
+- **Password**: password123
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js
