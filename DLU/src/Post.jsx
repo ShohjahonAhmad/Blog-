@@ -13,15 +13,15 @@ function Post(props){
     return (<>
         <div className="post-container">
             <div className="profile-pic">
-                <FaUserCircle />
+                <FaUserCircle data-testid="fa-user-circle" />
             </div>
             <div className="content">
                 <h3 className="username">{props.username} <span className="date">{props.date}</span></h3>
                 <p className='text'>{props.text}</p>
                 {liked ? (
-                        <IoIosHeart className="like" onClick={handleLike} />
+                        <IoIosHeart className="like" onClick={handleLike} data-testid="io-ios-heart" />
                     ) : (
-                        <IoIosHeartEmpty className="like" onClick={handleLike} />
+                        <IoIosHeartEmpty className="like" onClick={handleLike} data-testid="io-ios-heart-empty" />
                     )}
             </div>
         </div>
